@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+.heading-1 {
+  background-color: grey;
+  color: white;
+  border: 5px solid red;
+}
+
+.background {
+  background-color: red;
+  padding: 0 20px 20px 20px;
+  margin-top: 5px;
+}
+
+.heading-2 {
+  color: white;
+}
+
+.background .row {
+  background-color: white;
+}
+
+.section-1 {
+  padding-top: 2vh;
+}
+
+.forms {
+  border-top: 10px solid red;
+}
+
+.mini-heading {
+  border-bottom: 2px solid red;
+}
+
+.right .col-md-6 {
+  border-left: 2px solid red;
+}
+
+.mobile-payment, .card-payment {
+  min-height: 350px;
+  padding: 2vh;
+}
+
+.mobile-payment .form-group {
+  margin-top: 50%;
+}
+
+.background .form-group {
+  border: 1px solid  red;
+}
+
+.forms input {
+  border: 0;
+  border-top: 1px solid red;
+}
+
+.expiry {
+  width: 70%;
+  margin-right: 0;
+}
+
+.cvv {
+  width: 30%;
+  margin-left: 0;
+}
